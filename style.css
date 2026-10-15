@@ -150,6 +150,7 @@ img {
 .enroll-text {
     display: flex;
     flex-direction: column;
+    flex-basis: 50%;
     gap: 0.5rem;
     color: white;
 }
