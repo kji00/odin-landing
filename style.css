@@ -2,7 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -33,7 +33,7 @@ header {
     justify-content: space-between;
     padding: 1rem;
     color: white;
-    background-color: navy;
+    background-color: black;
 }
 
 ul {
@@ -62,7 +62,7 @@ img {
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
-    background-color: navy;
+    background-color: black;
     color: white;
 }
 
@@ -93,7 +93,7 @@ img {
     flex-basis: 33.33%;
 }
 
-.container {
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@ img {
     width: 100%;
     aspect-ratio: 2/1;
     flex-shrink: 0;
-    border-radius: 16px;
+    border-radius: 1rem;
     border: 5px solid skyblue;
 }
 
@@ -130,10 +130,41 @@ img {
     font-size: 18px;
 }
 
+.enroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .enroll {
-    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    border-radius: 1rem;
+    background: blue;
+    width: 50%;
+    height: 60%;
+}
+
+.enroll-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
 }
 
 .btn {
     background-color: skyblue;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid white;
+    border-radius: 1rem;;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
 }
