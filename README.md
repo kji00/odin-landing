@@ -1,3 +1,3 @@
 # odin-landing
 
-Use flexbox to breate page that looks like landingPage.png in the example.
+Use flexbox to create page that looks like landingPage.png in the example.
